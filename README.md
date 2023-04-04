@@ -123,7 +123,7 @@ I would like to thank my coding partner [Abdul Ali and Zike].
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](https://github.com/Kel-nana/math-magician-setup/blob/setup-branch/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <a name="readme-top"></a>
