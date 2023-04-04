@@ -69,7 +69,7 @@ Example commands:
 
 ```sh
   cd Math-Magician-Setup
-  git clone git@github.com:Kel-nana/Math-Magician-Setup.git
+  git clone git@github.com:Kel-nana/math-magician-setup.git
 ```
 
 ### Install
