@@ -1,8 +1,8 @@
-# math-magician
+# Math-Magician
 <a name="readme-top"></a>
 
 <div align="center">
-  
+  <img src="./src/Assets/calcScreenShoot.png" alt="screen shot" width="85%"  height="auto" />
   <br/>
 
   <h3><b>Math Magician Project</b></h3>
