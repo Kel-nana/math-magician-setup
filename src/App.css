@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 * {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -11,8 +11,8 @@
   border: 2.6px solid rgb(53, 46, 46);
   background-color: transparent;
   position: absolute;
-  left: 35%;
-  top: 20%;
+  left: 30%;
+  top: 30%;
 }
 
 .calcDisplay {
@@ -60,4 +60,20 @@
 .operators {
   border: 1px solid gray;
   background-color: rgb(214, 162, 17) !important;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(59, 65, 59, 0.178);
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  font-size: 2rem !important;
+  margin-left: 10%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+  width: 80%;
+  height: 20vh;
 }
