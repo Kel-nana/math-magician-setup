@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+* {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.calcBody {
+  border-radius: 23px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 30px 90px;
+  border: 2.6px solid rgb(53, 46, 46);
+  background-color: transparent;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
+.calcDisplay {
+  padding-right: 20px;
+  border: 1px solid  rgb(173, 154, 154);
+  font-size: 2.7rem !important;
+  width: 30rem;
+  height: 4.5rem;
+  line-height: 5.6rem;
+  text-align: right;
+  background-color: #868c91;
+  color: rgb(241, 238, 232);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30rem;
+}
+
+.btn {
+  border: 1.6px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 55px;
+  background-color: #ddd;
+  width: 120px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+
+.zero {
+  width: 240px !important;
+  border: 1.6px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+  border-bottom-left-radius: 20px;
+}
+
+.equal {
+  border-bottom-right-radius: 20px;
+}
+
+.operators {
+  border: 1px solid gray;
+  background-color: rgb(214, 162, 17) !important;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(59, 65, 59, 0.178);
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  font-size: 2rem !important;
+  margin-left: 10%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+  width: 80%;
+  height: 20vh;
+}
