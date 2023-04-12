@@ -6,21 +6,49 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 2em; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #1b1f22; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(173, 124, 147); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #746c6c; /* creates padding around scroll thumb */
+}
+
+.calc-page {
+  width: 100%;
+  height: 100vh;
+  padding-top: 4px;
+  background: url(./Assets/MathBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .calcBody {
   border-radius: 23px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0 30px 90px;
-  border: 2.6px solid rgb(53, 46, 46);
+  box-shadow: rgba(255, 192, 203, 0.4) 0 30px 90px;
+  border: 3px solid rgba(187, 124, 156, 0.178);
   background-color: transparent;
   position: absolute;
-  left: 30%;
-  top: 30%;
+  width: 30rem;
+
+  /* left: 53%; */
+  right: 12%;
+  top: 26%;
+  margin-left: 10px;
 }
 
 .calcDisplay {
   padding-right: 20px;
   border: 1px solid  rgb(173, 154, 154);
   font-size: 2.7rem !important;
-  width: 30rem;
+  width: 101%;
   height: 4.5rem;
   line-height: 5.6rem;
   text-align: right;
@@ -43,12 +71,12 @@
   text-align: center;
   line-height: 55px;
   background-color: #ddd;
-  width: 120px;
+  width: 7.5rem;
   box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
 }
 
 .zero {
-  width: 240px !important;
+  width: 15rem !important;
   border: 1.6px solid gray;
   box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
   border-bottom-left-radius: 20px;
@@ -63,18 +91,127 @@
   background-color: rgb(214, 162, 17) !important;
 }
 
+.quote-bodybg {
+  height: 100vh;
+  padding-top: 4px;
+  background: url(./Assets/MathBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .quote {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid rgba(59, 65, 59, 0.178);
+  background: url(./Assets/albert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid rgba(187, 124, 156, 0.178);
+  border-radius: 20px;
   font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
   font-size: 2rem !important;
-  margin-left: 10%;
-  margin-top: 20px;
+  margin-left: 20%;
+  margin-top: 8%;
   text-align: center;
-  border-radius: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+  color: hotpink;
+  box-shadow: rgba(169, 169, 192, 0.25) 0 30px 60px -12px inset, rgba(59, 37, 37, 0.3) 0 18px 36px -18px inset;
+  width: 60%;
+  height: 80vh;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: #1b1f22;
+  border-bottom: 1px solid rgba(255, 192, 203, 0.411);
+  box-shadow: rgba(255, 192, 203, 0.35) 0 5px 15px;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-right: 2px solid rgb(173, 124, 147);
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+
+li::before {
+  content: '';
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: hotpink;
+  transition: width 0.5s ease-out;
+  transform-origin: left;
+}
+
+li:hover::before {
+  width: 60%;
+  transform: scaleX(1);
+  transition: width 0.7s ease-out;
+  transform-origin: right;
+}
+
+li:hover {
+  border-bottom: 2px solid transparent;
+  color: hotpink;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.logo {
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: rgb(173, 124, 147);
+}
+
+.home-wrap {
+  background: url(./Assets/MathBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  padding-left: 20%;
+  padding-top: 1rem;
+  word-spacing: 0.5px;
+  height: 100%;
+  color: #ddd;
+}
+
+.home-header {
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-top: 10%;
+}
+
+.home-para {
+  font-family: "Delicious Handrawn", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
   width: 80%;
-  height: 20vh;
+  padding-bottom: 7%;
+  margin-bottom: 0;
 }

@@ -34,10 +34,14 @@ export default function Quotes() {
 
   // Render quote or loading/error message
   return (
-    <div className="quote">
-      <span>{isLoading ? 'Loading ...' : ''}</span>
-      <span>{error || ''}</span>
-      {quote}
+    <div className="quote-bodybg">
+      <div className="quote-body">
+        <div className="quote">
+          <span>{isLoading ? 'Loading ...' : ''}</span>
+          <span>{error || ''}</span>
+          {quote}
+        </div>
+      </div>
     </div>
   );
 }
