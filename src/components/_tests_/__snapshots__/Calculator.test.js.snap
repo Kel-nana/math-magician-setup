@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders correctly 1`] = `
+<div
+  className="calc-page"
+>
+  <h2
+    style={
+      Object {
+        "backgroundColor": "#868c91",
+        "border": "1px solid rgb(173, 154, 154)",
+        "borderRadius": "20px",
+        "boxShadow": "rgba(93, 50, 67, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset",
+        "color": "rgb(241, 238, 232)",
+        "fontFamily": "\\"Delicious Handrawn\\", Arial, Helvetica, sans-serif",
+        "fontSize": "2.7rem",
+        "marginLeft": "10%",
+        "marginTop": "11.7%",
+        "padding": "20px",
+        "textAlign": "center",
+        "width": "30%",
+      }
+    }
+  >
+    Lets Do Some Math!
+  </h2>
+  <div
+    className="calcBody"
+  >
+    <div
+      className="output"
+    >
+      <div
+        className="operand calcDisplay"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="flex-container"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="operators equal btn"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Calculator component renders correctly with specific props 1`] = `
+<div
+  className="calc-page"
+>
+  <h2
+    style={
+      Object {
+        "backgroundColor": "#868c91",
+        "border": "1px solid rgb(173, 154, 154)",
+        "borderRadius": "20px",
+        "boxShadow": "rgba(93, 50, 67, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset",
+        "color": "rgb(241, 238, 232)",
+        "fontFamily": "\\"Delicious Handrawn\\", Arial, Helvetica, sans-serif",
+        "fontSize": "2.7rem",
+        "marginLeft": "10%",
+        "marginTop": "11.7%",
+        "padding": "20px",
+        "textAlign": "center",
+        "width": "30%",
+      }
+    }
+  >
+    Lets Do Some Math!
+  </h2>
+  <div
+    className="calcBody"
+  >
+    <div
+      className="output"
+    >
+      <div
+        className="operand calcDisplay"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="flex-container"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="operators btn"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="operators equal btn"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;

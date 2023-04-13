@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders correctly 1`] = `
+  <span />
+  <span />
+</section>
+ <div className="quote-bodybg">
+      <div className="quote-body">
+        <div className="quote">
+          <span>Loading ...</span>
+          <span>An error occurred while fetching the quote.</span>
+          
+        </div>
+      </div>
+    </div>
+`;

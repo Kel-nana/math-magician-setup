@@ -48,7 +48,7 @@ HTML CSS JavaScript React and redux
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-- [Live Demo](https://math-magician-website-ppor.onrender.com/)
+- [Live Demo](https://math-magician-website-ppor.onrender.com)
 
 
 

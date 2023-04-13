@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component renders correctly 1`] = `
+<div
+  className="quote-bodybg"
+>
+  <div
+    className="quote-body"
+  >
+    <div
+      className="quote"
+    >
+      <span>
+        Loading ...
+      </span>
+      <span />
+    </div>
+  </div>
+</div>
+`;
